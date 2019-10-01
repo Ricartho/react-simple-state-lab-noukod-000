@@ -21,7 +21,8 @@ export default class Matrix extends Component {
   
 }
  Matrix.defaultProps = {
-   values: ()=>{
+   values: (()=>{
         const arrayBase = ["#F00", "#F00", "#F00", "#F00", "#F00", "#F00", "#F00", "#F00", "#F00", "#F00"];
         return (new Array(10).fill(arrayBaserray))
+       })()
 }
